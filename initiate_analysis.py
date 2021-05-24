@@ -26,16 +26,4 @@ def csv_read():
 	return originalDict
 
 df = csv_read()
-
-book = df['Name']
-review = df['Reviews']
-userRating = df['User Rating']
-
-plt.bar(book, review, userRating)
-
-
-
-
-
-
-
+# To be updated
