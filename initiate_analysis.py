@@ -22,7 +22,7 @@ import matplotlib.pyplot as plt
 from pathlib import Path
 
 def csv_read():
-	originalDict = pd.read_csv(Path('Datasets/bestsellers with categories.csv'))
+	originalDict = pd.read_csv(Path('Datasets/01stroke-prediction-sample-dataset.csv'))
 	return originalDict
 
 df = csv_read()
